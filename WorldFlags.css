@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+}
+body {
+	margin: 0px;
+  padding: 0;
+  background-color: #eed9d4 !important;
+  height: 100vh;
+}
+header {
+  background-color: #f39982;
+}
+
+.nav-link.active {
+  font-family: 'Playfair Display' serif;
+  font-weight: 900;
+  color: beige;
+}
+
+a>img {
+  max-height: 10vh;
+}
+#section1 {
+  position: relative;
+  background-color: hsl(52.3, 3.25%, 94.9%) ; 
+  width: 100%;
+  height: 60vh;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  box-shadow: 10px 10px 15px 5px rgba(234, 220, 220, 0.3);
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+
+#section1::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  bottom: 3px;
+  left: 3px;
+  right: 3px;
+  border: 2px dashed hsl(60, 86%, 77%)
+  ;
+  border-radius: 1rem;
+}
+
+#section2 {
+  display: flex;
+  justify-content: space-between;
+  
+  
+}
+
+button{
+  height: 170px;
+}
+#truth-button, #clear-Button, #dare-Button {
+  font-size: 45px;
+  width: 200px;
+  cursor: pointer;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 600;
+  border: 1px solid saddlebrown;
+}
+
+
+#truth-button:active, #clear-Button:active, #dare-Button:active {
+  transform: scale(0.9); /* Slightly smaller than the default hover size */
+  box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.2); /* Add a different box-shadow on click */
+  background-color: #a3b3a3; /* Change background color on click */
+}
+
+#truth-button {
+  background-color: #ffd28f;
+}
+#truth-button:hover{
+  box-shadow: 5px 5px 15px 5px rgb(237, 242, 91);
+}
+#clear-Button {
+  display: block;
+  color: whitesmoke;
+  background-color: #bb8144;
+  box-shadow: 5px 5px 15px 5px hsl(339.45, 73.88%, 51.96%);
+}
+#dare-Button {
+  color: rgb(9, 8, 8);
+  background-color: pink;
+}
+#dare-Button:hover {
+  box-shadow: 5px 5px 15px 5px hsl(287.46, 65.05%, 40.39%);
+  
+}
+
+#question {
+  font-size: 2.5rem;
+}
+#question-image {
+  display: none;
+  border-radius: 1rem;
+  object-fit: contain;
+  image-rendering: optimizeQuality;
+  max-height: 30vh;
+  
+}
+
+
+@media (max-width: 576px) {
+  #truth-button, #clear-Button, #dare-Button {
+    font-size: 35px;
+    width: 120px;
+  }
+  button {
+    height: 130px;
+    text-align: center;
+    padding: 5px;
+  }
+
+  h1 {
+    font-size: 24px; /* Adjust h1 size for small screens */
+  }
+
+  .container {
+    padding: 0 15px; /* Add some padding inside the container for smaller screens */
+  }
+
+  /* You can add more styles specific to small screens here */
+}

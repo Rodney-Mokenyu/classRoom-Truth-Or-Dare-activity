@@ -1,0 +1,102 @@
+[
+    {
+      "text": "What is your favorite science topic and why?",
+      "category": "Truth",
+      "image": null
+    },
+    {
+      "text": "Have you ever used science knowledge to solve a problem in real life? Can you explain?",
+      "category": "Truth",
+      "image": null
+    },
+    {
+      "text": "If you could invent anything to help the environment, what would it be?",
+      "category": "Truth",
+      "image": null
+    },
+    {
+      "text": "What is the chemical symbol for water?",
+      "category": "Truth",
+      "image": null
+    },
+    {
+        "text" : "If you could go on a field trip to any place to learn science, where would you go?",
+        "category" :"Truth",
+        "image" :null
+    },
+    {
+        "text" : "Do you know any famous scientist? Tell us their name",
+        "category":"Truth",
+        "image" :null
+    },
+    {
+        "text": "Do you love science? If you say no, you'll get points deduction. Lol.",
+        "category": "Truth",
+        "image" :null
+    },
+    {
+        "text": "Which of these babies do you love?",
+        "category" : "Truth",
+        "image" :["T or D images/cat baby.jpeg", "T or D images/panda baby.jpg"]
+    },
+    {
+        "text" : "You and your team should pretend like you are robots and walk around the classroom for 30 seconds.",
+        "category" : "Dare",
+        "image":null
+    },
+    {
+        "text" : "Create a dance that shows how water moves in the water cycle, and dance alone.",
+        "category": "Dare",
+        "image":"T or D images/water cycle.jpg"
+    },
+    {
+        "text" : "Pretend to be a famous scientist giving a speech about your latest experiment in front of the class.",
+        "category" : "Dare",
+        "image" : null
+    },
+    {
+        "text" : "Do your best impression of an animal that lives in the jungle for 1 minute.",
+        "category" :"Dare",
+        "image" :"T or D images/jungle.jpeg"
+    },
+    {
+        "text": "Imitate the sound of a thunderstorm for 30 seconds.",
+        "category":"Dare",
+        "image":"cameroonFlag.jpeg"
+    },
+    {
+        "text": "Do your best impression of a snake that's trying to eat a mouse.",
+        "category":"Dare",
+        "image": "T or D images/snake & food.gif"
+    },
+    {
+        "text": "Do you have 100 dollars?",
+        "category": "Truth",
+        "image" : "T or D images/dollarBill.jpeg"
+    },
+    {
+        "text" : "Which student looked like this baby when they were young?",
+        "category" :"Truth",
+        "image" : "T or D images/strangeKid.jpg"
+    },
+    {
+        "text": "Tea or Coffee?",
+        "category":"Truth",
+        "image" : "T or D images/tea or coffee.jpeg"
+    },
+    {
+        "text" : "Machiato or cappuccino?",
+        "category" :"Truth",
+        "image" : "T or D images/capuccino.jpg"
+    },
+    {
+        "text" : "Dance like a frog.",
+        "category" :"Dare",
+        "image" : "T or D images/frog dance.gif"
+    },
+    {
+        "text" : "Do the Sigma boy move with your friends for 40 seconds and strike your best pose!",
+        "category" : "Dare",
+        "image" : "T or D images/sigma boy.gif"
+    }
+]
